@@ -1,0 +1,4 @@
+repository "IsometricGame/IsometricGame 2025-06-27_15-08-59@5773491421029@cloud"
+  path "/"
+    br "/main"
+    co "/main"
