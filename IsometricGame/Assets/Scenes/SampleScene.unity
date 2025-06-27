@@ -215,7 +215,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &590642162
+=======
+--- !u!1 &1009965429
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,22 +227,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 590642163}
   - component: {fileID: 590642165}
   - component: {fileID: 590642164}
   m_Layer: 0
   m_Name: Tilemap
+=======
+  - component: {fileID: 1009965431}
+  - component: {fileID: 1009965430}
+  m_Layer: 0
+  m_Name: Zquare
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &590642163
 Transform:
+=======
+--- !u!212 &1009965430
+SpriteRenderer:
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 590642162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -255,14 +272,22 @@ TilemapRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590642162}
+=======
+  m_GameObject: {fileID: 1009965429}
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
+<<<<<<< HEAD
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+=======
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
@@ -289,6 +314,7 @@ TilemapRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -365,11 +391,26 @@ Grid:
   m_CellLayout: 2
   m_CellSwizzle: 0
 --- !u!4 &1031288546
+=======
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0.75329113, g: 0, b: 0.9433962, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1009965431
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1031288544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -378,6 +419,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 590642163}
+=======
+  m_GameObject: {fileID: 1009965429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.5, y: 5.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1153914565
@@ -555,4 +605,8 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 2062707269}
   - {fileID: 1153914567}
+<<<<<<< HEAD
   - {fileID: 1031288546}
+=======
+  - {fileID: 1009965431}
+>>>>>>> 00053b19e83bce743b694235bebf38bd4f58bd6f
