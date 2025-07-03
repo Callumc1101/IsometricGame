@@ -7,7 +7,7 @@ public class aichase : MonoBehaviour
     public GameObject player;
     public float speed;
 
-    private 
+    private float distance; 
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +17,6 @@ public class aichase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        distance = Vector2.Distance(transform.position, player.transform.position);   
     }
 }
