@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Isometric_Witch
       objectReference: {fileID: 0}
+    - target: {fileID: 3339481645408498929, guid: bf9dc9912e54d9443a688fd98232171f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3339481645408498932, guid: bf9dc9912e54d9443a688fd98232171f, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.050134
@@ -12415,6 +12419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39c6581b850cb746be54995823a46d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1245434713}
+  speed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
