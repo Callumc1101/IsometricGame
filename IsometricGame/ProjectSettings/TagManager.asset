@@ -8,6 +8,8 @@ TagManager:
   - 'enemy '
   - Player
   - Healthbar
+  - PlayerController
+  - Player
   layers:
   - Default
   - TransparentFX
