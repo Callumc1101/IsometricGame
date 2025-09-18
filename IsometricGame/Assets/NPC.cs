@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour, IInteractable
 {
     public NPCdialogue dialogueData;
-    public GameObject dialoguePanel1;
+    public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
 
@@ -42,7 +42,7 @@ public class NPC : MonoBehaviour, IInteractable
         nameText.SetText(dialogueData.npcName);
         portraitImage.sprite = dialogueData.npcPortrait;
 
-        dialoguePanel1.SetActive(true);
+        dialoguePanel.SetActive(true);
 
         StartCoroutine(TypeLine());
     }
@@ -89,7 +89,7 @@ public class NPC : MonoBehaviour, IInteractable
         StopAllCoroutines();
         isDialogueActive = false;
         dialogueText.SetText("");
-        dialoguePanel1.SetActive(false);
+        dialoguePanel.SetActive(false);
         
     }
 }
